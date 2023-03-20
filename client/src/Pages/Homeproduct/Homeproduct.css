@@ -1,0 +1,31 @@
+.addp_navbar{
+    background-color: #0E8388;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.addp_navbar h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+.addp_navbar_links{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.3em;
+    display: flex;
+    gap: 2em;
+}
+
+.addp_navbar_links a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:900px){
+    .addp_navbar_links{
+        display: none;
+    }
+}

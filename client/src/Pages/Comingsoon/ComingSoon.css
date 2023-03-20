@@ -1,0 +1,15 @@
+.comingsoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media screen and (max-width:900px){
+    .comingsoon{
+        margin-top: 80%;
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,64 @@
+.userprofile{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.userprofile_info_input{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 60%;
+    padding-top: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+
+.userprofile_info_input input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.userprofile_info_input input:focus{
+    outline: none;
+}
+
+.userprofile_info_input_button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5em;
+}
+
+.userprofile_info_input_button button{
+    border: none;
+    background-color: #E90064;
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.8em; 
+}
+
+.userprofile_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.userprofile_info img{
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:900px){
+    .userprofile_info{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .userprofile_info_input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
